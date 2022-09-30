@@ -1,9 +1,12 @@
+import renderApp from './renderApp.js';
+
 const modal = document.querySelector('.modal');
 const home = document.querySelector('.home');
 
 const about = document.getElementById('about_LA');
 const team = document.getElementById('team');
 const mint = document.getElementById('mint');
+const app = document.querySelector('.app');
 
 about.onclick = () => {
   modal.classList.add('modal_show');
@@ -117,3 +120,7 @@ const mask = document.querySelector('.mask');
 window.addEventListener('load', () => {
   mask.remove();
 });
+
+app.onclick = () => {
+  renderApp();
+};
