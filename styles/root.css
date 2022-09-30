@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'Conkretika';
+  src: url('../fonts/SK_Concretica_Trial_400.ttf');
+}
+
+* {
+  font-family: 'Conkretika';
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}

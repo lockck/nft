@@ -1,0 +1,53 @@
+@import 'styles/root.css';
+@import 'styles/home.css';
+@import 'styles/modal.css';
+
+@media screen and (max-width: 700px) {
+  .modal > p {
+    font-size: 1.1rem;
+  }
+  .add {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrap {
+    padding: 51px;
+    margin-top: 60px;
+  }
+
+  .under_wrap {
+    margin-bottom: 60px;
+  }
+
+  .under_wrap > img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .under_wrap > h3 {
+    width: 140px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .wrap {
+    padding: 5px;
+  }
+
+  .soon {
+    font-size: 2.5rem;
+    width: 290px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modal > p {
+    font-size: 1rem;
+  }
+  .add {
+    font-size: 1rem;
+  }
+}

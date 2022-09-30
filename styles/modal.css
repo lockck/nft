@@ -1,0 +1,125 @@
+.modal {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  max-height: 96%;
+  width: 90%;
+  height: 96%;
+  background-color: rgba(40, 40, 40, 0.99);
+  z-index: 10;
+  padding: 10px;
+  border-radius: 30px;
+}
+
+.modal > i {
+  font-size: 3rem;
+  position: fixed;
+  right: 0;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.modal > h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 2rem;
+}
+
+.modal > img {
+  max-width: 500px;
+  max-height: 500px;
+  width: 70%;
+  height: 40%;
+  display: block;
+  margin: 0 auto;
+}
+
+.modal > p {
+  margin-top: 30px;
+  font-size: 1.3rem;
+}
+
+.modal_show {
+  display: block;
+}
+
+.add {
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
+
+/* TEAM */
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.under_wrap {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.under_wrap > img {
+  max-width: 230px;
+  max-height: 230px;
+}
+
+.under_wrap > h3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 12px;
+  padding: 1px 0;
+}
+
+h3 > span {
+  color: red;
+}
+
+h3 > a {
+  color: black;
+  font-size: 1.5rem;
+}
+
+h3 > a:hover {
+  filter: drop-shadow(0px 0px 5px black) drop-shadow(0px 0px 10px white);
+  animation: 1.5s infinite blinkin;
+}
+
+.soon {
+  z-index: 5;
+  color: black;
+  width: 345px;
+  margin: 100px auto 0 auto;
+  border-right: 3px solid;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 3rem;
+  animation: typing 2.5s steps(13), blink 0.5s step-end infinite alternate;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.NFT_artist {
+  color: #f500ff;
+}
+
+.Dev {
+  color: rgb(0, 199, 0);
+}
