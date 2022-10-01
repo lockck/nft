@@ -7,4 +7,8 @@
   .home > img {
     width: 300px;
   }
+
+  .categories > h2 {
+    font-size: 1.8rem;
+  }
 }
