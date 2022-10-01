@@ -2,3 +2,9 @@
 @import 'styles/home.css';
 @import 'styles/modal.css';
 @import 'styles/home_app.css';
+
+@media screen and (max-width: 700px) {
+  .home > img {
+    width: 300px;
+  }
+}
