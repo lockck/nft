@@ -13,7 +13,8 @@
   }
 
   .ape_gif {
-    width: 250px;
+    max-height: 220px;
+    max-width: 220px;
   }
 
   .modal > p {
@@ -30,5 +31,15 @@
 
   .soon {
     font-size: 2.5rem;
+  }
+
+  .home_app > h1 {
+    font-size: 3rem;
+    width: 300px;
+  }
+
+  .home_app > img {
+    max-height: 280px;
+    max-width: 280px;
   }
 }
