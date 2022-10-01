@@ -36,6 +36,10 @@
 .modal > p {
   margin-top: 30px;
   font-size: 1.3rem;
+  background-color: white;
+  opacity: 0.3;
+  border-radius: 12px;
+  padding: 5px;
 }
 
 .modal_show {
@@ -47,6 +51,10 @@
   margin: 0 auto;
   margin-top: 20px;
   font-size: 1.3rem;
+  background-color: white;
+  opacity: 0.3;
+  border-radius: 12px;
+  padding: 5px;
 }
 
 /* TEAM */
