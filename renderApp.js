@@ -1,6 +1,6 @@
 export default function renderApp() {
-  const home = document.querySelector('.home');
-  home.innerHTML = `
+  const body = document.querySelector('body');
+  body.innerHTML = `
     <section class='home_app'>
         <button class='back'>Back</button>
         <h1>Coming soon</h1>
