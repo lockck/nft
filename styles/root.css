@@ -10,6 +10,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   background-color: black;
   max-height: 100vh;
