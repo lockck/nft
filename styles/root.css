@@ -9,10 +9,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-html,
-body {
-  background-color: black;
-  max-height: 100vh;
-  position: fixed;
-}

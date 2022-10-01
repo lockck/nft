@@ -1,9 +1,8 @@
 .home {
-  height: 100vh;
-  background-color: black;
   background: url('https://cdn.discordapp.com/attachments/1012437245287997480/1025712677185650728/backgr.gif')
     center no-repeat;
-  padding-top: 10px;
+  height: 100vh;
+  padding-top: 20px;
 }
 
 .home > h1 {
@@ -14,9 +13,7 @@
 }
 
 .home > img {
-  max-width: 500px;
-  width: 70%;
-  height: 50%;
+  width: 500px;
   display: block;
   margin: 0 auto;
   cursor: pointer;
@@ -30,8 +27,9 @@
 }
 
 .categories {
-  max-width: 300px;
-  margin: 20px auto 0 auto;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 10px;
 }
 
 .categories > h2 {
@@ -43,14 +41,17 @@
   transition: 0.3s;
 }
 
-h2 > a {
-  color: white;
-  text-decoration: none;
+.categories > h2:last-child {
+  margin-bottom: 0;
 }
 
 .categories > h2:hover:not(:last-child) {
   filter: drop-shadow(0px 0px 5px black) drop-shadow(0px 0px 10px white);
   animation: 1.5s infinite blinkin;
+}
+
+.categories > h2:hover:last-child {
+  filter: drop-shadow(0px 0px 5px black) drop-shadow(0px 0px 10px white);
 }
 
 .link {
@@ -161,10 +162,6 @@ h2 > a {
   padding: 2px 20px;
 }
 
-.categories > h2:hover:last-child {
-  filter: drop-shadow(0px 0px 5px black) drop-shadow(0px 0px 10px white);
-}
-
 .app > h2 > a {
   cursor: default;
   position: absolute;
@@ -205,8 +202,6 @@ h2 > a {
 .bnc:nth-child(5) {
   animation-delay: 0.4s;
 }
-
-/* ANIMATION */
 
 @keyframes bounce {
   100% {

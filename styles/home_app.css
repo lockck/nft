@@ -1,10 +1,7 @@
 .home_app {
-  background-color: black;
   background: url('https://cdn.discordapp.com/attachments/1012437245287997480/1025712677185650728/backgr.gif')
     center no-repeat;
   height: 100vh;
-  width: 100%;
-  padding: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,11 +9,8 @@
 }
 
 .home_app > h1 {
-  z-index: 5;
-  color: black;
   width: 450px;
   margin: 0 auto;
-  text-align: center;
   border-right: 3px solid;
   white-space: nowrap;
   overflow: hidden;
@@ -28,12 +22,11 @@
 .home_app > img {
   max-width: 500px;
   max-height: 500px;
-  display: block;
 }
 
 .back {
   color: black;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: bold;
   cursor: pointer;
   max-height: 50px;
@@ -53,41 +46,5 @@
 @keyframes blinking {
   50% {
     border-color: transparent;
-  }
-}
-
-@media screen and (max-width: 640px) {
-  .home_app > img {
-    max-height: 300px;
-    max-width: 300px;
-  }
-  .home_app > h1 {
-    font-size: 4rem;
-    width: 365px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .home_app > img {
-    max-height: 200px;
-    max-width: 200px;
-  }
-  .home_app > h1 {
-    font-size: 3rem;
-    width: 280px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .home_app > h1 {
-    font-size: 2rem;
-    width: 190px;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  .home_app > h1 {
-    font-size: 1.6rem;
-    width: 150px;
   }
 }
