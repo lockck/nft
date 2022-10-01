@@ -1,7 +1,8 @@
 .home {
   height: 100vh;
   background-color: black;
-  background: url('') center no-repeat;
+  background: url('https://cdn.discordapp.com/attachments/1012437245287997480/1025712677185650728/backgr.gif')
+    center no-repeat;
   padding-top: 10px;
 }
 
