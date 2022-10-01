@@ -1,7 +1,7 @@
 .home {
   height: 100vh;
   background-color: black;
-  background: url('/img/backgr.gif') center no-repeat;
+  background: url('img/backgr.gif') center no-repeat;
   padding-top: 10px;
 }
 

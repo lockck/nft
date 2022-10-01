@@ -9,7 +9,8 @@ export default function renderApp() {
     `;
 
   const back = document.querySelector('.back');
-  back.onclick = () => {
+  back.onclick = (e) => {
+    e.preventDefault();
     window.location.href = '';
   };
 }
