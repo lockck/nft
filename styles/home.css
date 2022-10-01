@@ -57,10 +57,9 @@ h2 > a {
   width: 300px;
   text-align: center;
   position: fixed;
-  bottom: 0;
+  bottom: 3%;
   left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 30px;
 }
 
 .link > a {
