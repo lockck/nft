@@ -42,10 +42,4 @@
     max-height: 280px;
     max-width: 280px;
   }
-
-  html,
-  body {
-    position: fixed;
-    height: 100vh;
-  }
 }
