@@ -18,11 +18,11 @@
   }
 
   .modal > p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .add {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
   }
 
   .under_wrap > img {
@@ -41,5 +41,11 @@
   .home_app > img {
     max-height: 280px;
     max-width: 280px;
+  }
+
+  html,
+  body {
+    position: fixed;
+    height: 100vh;
   }
 }
