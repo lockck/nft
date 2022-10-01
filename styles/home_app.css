@@ -57,36 +57,36 @@
 }
 
 @media screen and (max-width: 640px) {
-  img {
+  .home_app > img {
     max-height: 300px;
     max-width: 300px;
   }
-  h1 {
+  .home_app > h1 {
     font-size: 4rem;
     width: 365px;
   }
 }
 
 @media screen and (max-width: 500px) {
-  img {
+  .home_app > img {
     max-height: 200px;
     max-width: 200px;
   }
-  h1 {
+  .home_app > h1 {
     font-size: 3rem;
     width: 280px;
   }
 }
 
 @media screen and (max-width: 450px) {
-  h1 {
+  .home_app > h1 {
     font-size: 2rem;
     width: 190px;
   }
 }
 
 @media screen and (max-width: 360px) {
-  h1 {
+  .home_app > h1 {
     font-size: 1.6rem;
     width: 150px;
   }
