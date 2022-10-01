@@ -13,7 +13,7 @@ about.onclick = () => {
   modal.innerHTML = `
     <i id='close' class="fa-solid fa-xmark"></i>
     <h1>About Linguist Apes</h1>
-    <img src='img/ape_chill.gif' alt='chilling ape'/>
+    <img class='ape_gif' src='img/ape_chill.gif' alt='chilling ape'/>
     <p>Linguist Apes is a learning platform built using NFT technology<br> The creators of the project are NFT enthusiasts who want to fix a fundamental problem that prevents people from getting to know each other better<br> A problem that makes people embarrassed to ask a stranger the time or understand what is written in the project's roadmap<br> The problem of not knowing a language<br><br>
     </p>
 
