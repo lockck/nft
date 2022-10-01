@@ -4,10 +4,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 600px;
-  max-height: 96%;
-  width: 90%;
   height: 96%;
+  width: 600px;
   background-color: rgba(40, 40, 40, 0.99);
   z-index: 10;
   padding: 10px;
@@ -29,10 +27,7 @@
 }
 
 .modal > img {
-  max-width: 500px;
-  max-height: 500px;
-  width: 70%;
-  height: 40%;
+  width: 300px;
   display: block;
   margin: 0 auto;
 }
@@ -68,14 +63,13 @@
 }
 
 .under_wrap > img {
-  max-width: 230px;
-  max-height: 230px;
+  width: 230px;
 }
 
 .under_wrap > h3 {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 12px;
-  padding: 1px 0;
+  padding: 2px 0;
 }
 
 h3 > span {
