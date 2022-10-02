@@ -94,7 +94,7 @@ mint.onclick = () => {
   modal.classList.add('modal_show');
   modal.innerHTML = `
       <i id='close' class="fa-solid fa-xmark"></i>
-      <h1>About Linguist Apes</h1>
+      <h1>Mint info</h1>
       <img src='img/ape_angy.gif'/>
       <h2 class='soon'>Coming sooooon </h2>
   
